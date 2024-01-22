@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Book.Api</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.BookController.CreateBook(Application.UseCases.CreateBookRequest)">
+            <summary>
+            Create a new book.
+            </summary>
+            <param name="request">Book data</param>
+            <response code="200">Book created successfully</response>
+            <response code="400">There were mistakes in creating books. Check the parameters</response>
+        </member>
+    </members>
+</doc>
