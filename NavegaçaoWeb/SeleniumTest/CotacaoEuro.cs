@@ -18,8 +18,8 @@ namespace SeleniumTest
 
             var cotacao = driver.FindElement(By.XPath("//*[@id=\"knowledge-currency__updatable-data-column\"]/div[1]/div[2]/span[1]")).Text;
 
-            Console.WriteLine(cotacao);
-
+            //Console.WriteLine(cotacao);
+            Assert.Contains("5,43", cotacao);
         }
     }
 }

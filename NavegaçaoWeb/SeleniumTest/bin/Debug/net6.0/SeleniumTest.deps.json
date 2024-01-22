@@ -9,9 +9,7 @@
       "SeleniumTest/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.5.0",
-          "Selenium.Support": "4.16.2",
           "Selenium.WebDriver": "4.16.2",
-          "Selenium.WebDriver.ChromeDriver": "120.0.6099.10900",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
           "xunit.runner.visualstudio": "2.4.5"
@@ -403,17 +401,6 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
-      "Selenium.Support/4.16.2": {
-        "dependencies": {
-          "Selenium.WebDriver": "4.16.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/WebDriver.Support.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        }
-      },
       "Selenium.WebDriver/4.16.2": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -425,7 +412,6 @@
           }
         }
       },
-      "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {},
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1243,26 +1229,12 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
-    "Selenium.Support/4.16.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xxwbDNUFUQyD9p1qsT2mjqQPADJVXYub1Z+6lzIbqLAqzbnIovo/lBQD2te5ly7OI8HZqU0vNDbi9p2Mxtz3NA==",
-      "path": "selenium.support/4.16.2",
-      "hashPath": "selenium.support.4.16.2.nupkg.sha512"
-    },
     "Selenium.WebDriver/4.16.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5BI/v+LpPma+o5ijzy1jDqnbYBBu99UQYPhvZkSBnXY6PoDKLP//aMiX8XODNJHHcRwGXeaxKR61ISO6ejXExA==",
       "path": "selenium.webdriver/4.16.2",
       "hashPath": "selenium.webdriver.4.16.2.nupkg.sha512"
-    },
-    "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wCOew6C9ABCRK59DdzdJyoQKmVQEUrVQEvoDQdhnLWpW1OkFKG5pd9EK6B3j2vcqdNTBNM6++tAOhBMFezHm3w==",
-      "path": "selenium.webdriver.chromedriver/120.0.6099.10900",
-      "hashPath": "selenium.webdriver.chromedriver.120.0.6099.10900.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

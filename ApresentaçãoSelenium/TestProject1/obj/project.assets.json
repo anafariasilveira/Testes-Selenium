@@ -5562,9 +5562,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Testes Selenium\\ApresentaçãoSelenium\\TestProject1\\GitHub&LinkedIn.csproj",
-      "projectName": "GitHub&LinkedIn",
-      "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Testes Selenium\\ApresentaçãoSelenium\\TestProject1\\GitHub&LinkedIn.csproj",
+      "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Testes Selenium\\ApresentaçãoSelenium\\TestProject1\\Selenium Tests.csproj",
+      "projectName": "Selenium Tests",
+      "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Testes Selenium\\ApresentaçãoSelenium\\TestProject1\\Selenium Tests.csproj",
       "packagesPath": "C:\\Users\\aninh\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\aninh\\Documents\\GitHub\\Testes Selenium\\ApresentaçãoSelenium\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
